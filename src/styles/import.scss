@@ -1,0 +1,47 @@
+$black: #000000;
+$white: #ffffff;
+
+$blue500: #3182ce;
+$blue400: #4299e1;
+$blue300: #63b3ed;
+$blue200: #90cdf4;
+$blue100: #bee3f8;
+
+$gray900: #171923;
+$gray800: #1a202c;
+$gray700: #2d3748;
+$gray600: #4a5568;
+$gray500: #718096;
+$gray400: #a0aec0;
+$gray300: #cbd5e0;
+
+$fontFira: "Fira Code", monospace;
+$fontMont: "Montserrat", sans-serif;
+
+//padding
+
+$padding2: 2px;
+$padding4: 4px;
+$padding6: 6px;
+$padding8: 8px;
+$padding10: 10px;
+$padding12: 12px;
+$padding14: 14px;
+$padding16: 16px;
+
+//font-size
+
+$size10: 10px;
+$size12: 12px;
+$size14: 14px;
+$size16: 16px;
+$size18: 18px;
+$size20: 20px;
+$size22: 22px;
+$size24: 24px;
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

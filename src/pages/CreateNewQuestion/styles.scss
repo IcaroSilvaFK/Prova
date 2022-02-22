@@ -1,0 +1,29 @@
+@import "../../styles/import.scss";
+.container {
+  form {
+    @include flexColumn;
+    gap: 10px;
+    .row {
+      @include flexColumn;
+      gap: 2px;
+      label {
+        font-family: $fontFira;
+        &::first-letter {
+          text-transform: uppercase;
+        }
+      }
+      .input__style {
+        border: 1px solid $blue500;
+        padding: $padding6 $padding10;
+        border-radius: 5px;
+        width: 350px;
+        display: block;
+        font-size: $size16;
+        &:focus {
+          border: 1px solid $gray900;
+          transition: linear 0.2s;
+        }
+      }
+    }
+  }
+}

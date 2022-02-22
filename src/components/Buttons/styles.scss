@@ -1,0 +1,28 @@
+@import "../../styles/import.scss";
+@mixin paddingJustify {
+  padding: $padding8 $padding14;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin hover {
+  filter: brightness(0.8);
+}
+
+.btnQuestion {
+  @include paddingJustify;
+}
+.btnQuestion {
+  @include paddingJustify;
+  border-radius: 5px;
+  background-color: $blue400;
+  font-size: $size14;
+  color: $white;
+  font-weight: bold;
+  &:hover {
+    background-color: transparent;
+    color: $blue400;
+    box-shadow: 0 0 0 1px $blue400;
+    transition: linear 0.4s;
+  }
+}
